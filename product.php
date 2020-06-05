@@ -14,16 +14,16 @@
 <div class="search-box">
 <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
 <i class="fa fa-bars" id="close-btn" onclick="closemenu()"></i>
-<a href="PTVOnline.html"><img src="Images/Logo.png" class="logo"></a>
+<a href="PTVonline.php"><img src="Images/Logo.png" class="logo"></a>
 <input type=text class="form-control">
 <span class="input-group-text"><i class="fa fa-search"></i></span>          
 </div>
 </div>
 <div class="menu-bar">
 <ul>
-<li><a href="Dathang.html"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+    <li><a href="dathang.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>
 <li><a href="#">Log In</a></li>
-<li><a href="Register.html">Register</a></li>
+<li><a href="register.php">Register</a></li>
 </ul>    
 </div>
 </body>

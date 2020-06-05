@@ -13,7 +13,7 @@
 <div class="search-box">
 <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
 <i class="fa fa-bars" id="close-btn" onclick="closemenu()"></i>
-<a href="PTVOnline.html"><img src="Images/Logo.png" class="logo"></a>
+<a href="PTVonline.php"><img src="Images/Logo.png" class="logo"></a>
 <input type=text class="form-control">
 <span class="input-group-text"><i class="fa fa-search"></i></span>          
 </div>
@@ -22,7 +22,7 @@
 <ul>
 <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
 <li><a href="#">Log in</a></li>
-<li><a href="Register.html">Register</a></li>
+<li><a href="Register.php">Register</a></li>
 </ul>    
 </div>
 <div class="container"> 
@@ -82,7 +82,7 @@
    <tr class="visible-xs">  
    </tr> 
    <tr> 
-    <td><a href="PTVOnline.html" class="btn btn-warning"><i class="fa fa-angle-left"></i>Continue shopping</a>
+       <td><a href="PTVonline.php" class="btn btn-warning"><i class="fa fa-angle-left"></i>Continue shopping</a>
     </td> 
     <td colspan="2" class="hidden-xs"> </td> 
     <td class="hidden-xs text-center"><strong>Total $90.00</strong>
