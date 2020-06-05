@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>PTV Online Single Product</title> 
+<title>PTV Online</title> 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,66 +21,192 @@
 </div>
 <div class="menu-bar">
 <ul>
-<li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
-<li><a href="#">Log In</a></li>
-<li><a href="Register.html">Register</a></li>    
+<li><a href="Dathang.html"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+<li><a href="#">Log in</a></li>
+<li><a href="Register.html">Register</a></li>
 </ul>    
 </div>
-</body>
-<!--------------Single Product---------->    
-<section class="single-product">
-<div class="container">
-<div class="row">
-<div class="col-md-5">
-<div id="prodcut-slider" class="carousel slide carousel-fade" data-ride="carousel">
+<section class="header">
+<div class="side-menu" id="side-menu">
+<ul>
+<li>On Sale<i class="fa fa-angle-right"></i>
+<ul>
+    <li>Sub Menu 1</li>
+    <li>Sub Menu 1</li>
+    <li>Sub Menu 1</li>
+    <li>Sub Menu 1</li> 
+</ul>     
+</li>
+<li>Mobiles<i class="fa fa-angle-right"></i>
+<ul>
+    <li>Sub Menu 2</li>
+    <li>Sub Menu 2</li>
+    <li>Sub Menu 2</li>
+    <li>Sub Menu 2</li>
+</ul>    
+</li>  
+<li>Computer<i class="fa fa-angle-right"></i>
+<ul>
+    <li>Sub Menu 3</li>
+    <li>Sub Menu 3</li>
+    <li>Sub Menu 3</li>
+    <li>Sub Menu 3</li> 
+</ul>
+</li>         
+</ul>       
+</div>  
+<div class="slider">
+<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Images/Product2.png" class="d-block w-100">
+      <img src="Images/Slide1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/Slide2.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/Slide3.jpg" class="d-block w-100">
     </div>
   </div>
-</div>        
+    <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+  </ol>
+</div>    
+    </div>    
+</section>
+<!-----------Featured---------->
+<section class="featured-categories">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<img src="Images/Feature1.png">    
+</div>   
+<div class="col-md-4">
+<img src="Images/Feature2.jpg">    
+</div>
+<div class="col-md-4">
+<img src="Images/Feature3.png">    
+</div>
+</div> 
+</div>    
+</section> 
+<!----------On Sale----------->
+<section class="on-sale">
+<div class="container">
+<div class="title-box">
+<h2>On sale</h2>
+</div>
+<div class="row">
+<div class="col-md-3">
+<div class="product-top">
+<a href="Product.html"><img src="Images/Product1.png"></a>
+    <div class="overlay-right">
+    <button tyep="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-angle-right"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to wishlist">
+        <i class="fa fa-heart-o"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to cart">
+        <i class="fa fa-shopping-cart"></i>
+        </button>
     </div>
-    
-    <div class="col-md-7">
-    <p class="new-arrival text-center">NEW</p>
-        <h2>Honor smartphone</h2>
+</div>
+    <div class="product-bottom text-center">
     <i class="fa fa-star"></i>
     <i class="fa fa-star"></i>
     <i class="fa fa-star"></i>
     <i class="fa fa-star"></i>
     <i class="fa fa-star-half-o"></i>
-        <p class="price">USD $40.00</p>
-        <p><b>Availability:</b> In Stock</p>
-        <p><b>Condition:</b> New</p>
-        <p><b>Brand:</b> Honor Company</p>
-        <label><b>Quantity: </b></label>
-        <input type="text" value="1">
-        <button type="button" class="btn btn-primary">Add to cart</button>
+        <h3>Watch</h3>
+        <h5>$50.00</h5>
     </div>
-    </div>    
+</div>   
+    <div class="col-md-3">
+<div class="product-top">
+    <a href="Product2.html"><img src="Images/Product2.png"></a>
+    <div class="overlay-right">
+    <button tyep="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-angle-right"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to wishlist">
+        <i class="fa fa-heart-o"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to cart">
+        <i class="fa fa-shopping-cart"></i>
+        </button>
+    </div>
+</div>
+    <div class="product-bottom text-center">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+        <h3>Smart Phone</h3>
+        <h5>$40.00</h5>
+    </div>       
+</div>
+    <div class="col-md-3">
+<div class="product-top">
+    <a href="Product3.html"><img src="Images/Product3.png"></a>
+    <div class="overlay-right">
+    <button tyep="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-angle-right"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to wishlist">
+        <i class="fa fa-heart-o"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to cart">
+        <i class="fa fa-shopping-cart"></i>
+        </button>
+    </div>
+</div>
+    <div class="product-bottom text-center">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+        <h3>Fidelio Headphone</h3>
+        <h5>$60.00</h5>
     </div>     
-</section>
-    <!------------Prodcut-Description--------->
-    <section class="product-description">
-    <div class="container">
-    <h6>Product Description</h6>
-        <ul class="list">
-        <li>Genuine goods, genuine goods, 100% new goods</li>
-<li>6.21 inch screen, Full HD +</li> 
-<li>Front camera: 32MP</li> 
-<li>Rear Camera: 24MP + 8MP (super wide angle) + 2MP</li>
-<li>RAM: 4GB</li>
-<li>Internal memory: 128GB</li> 
-<li>MicroSD external memory card up to 512 GB</li> 
-<li>Battery capacity: 3400mAh</li>
-<li>Compatible SIM: Nano SIM (2 SIM)</li>
-<li>AI photography technology and AIS super night mode</li>  
-        </ul>  
-    <hr>
+</div>
+    <div class="col-md-3">
+<div class="product-top">
+    <a href="Product4.html"><img src="Images/Product4.png"></a>
+    <div class="overlay-right">
+    <button tyep="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-angle-right"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to wishlist">
+        <i class="fa fa-heart-o"></i>
+        </button>
+        <button tyep="button" class="btn btn-secondary" title="Add to cart">
+        <i class="fa fa-shopping-cart"></i>
+        </button>
     </div>
-    <div class="container">
+</div>
+    <div class="product-bottom text-center">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+        <h3>Gaming Chair</h3>
+        <h5>$150.00</h5>
+    </div>     
+</div>
+</div>
+</div>
+</section>
+<!--------New product---------->
+<section class="New-product">
+<div class="container">
 <div class="title-box">
-<h2>Similar</h2>
+<h2>New product</h2>
 </div>
 <div class="row">
 <div class="col-md-3">
@@ -183,7 +310,32 @@
     </div>     
 </div>
 </div>
-</div> 
+</div>
+</section>
+    <!-----------------Website features----------------->
+    <section class="website-features">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-3 feature-box">
+    <img src="Images/100%25.jpg">
+    <div class="feature-text">
+    <p><b>100% original items </b>are available at company </p>    
+    </div>
+    </div>
+    <div class="col-md-3 feature-box">
+    <img src="Images/return.png">
+    <div class="feature-text">
+    <p><b>Return within 30 days </b>of receiving your order </p>    
+    </div>
+    </div>
+        <div class="col-md-3 feature-box">
+    <img src="Images/Delivery.png">
+    <div class="feature-text">
+    <p><b>Get free delivery </b>for every order on more than price </p>    
+    </div>
+    </div>
+    </div>    
+    </div>
     </section>
     <!------------Footer---------->
     <section class="footer">
@@ -234,3 +386,5 @@
         document.getElementById("close-btn").style.display="none";
     }
     </script>    
+</body>
+</html>

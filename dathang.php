@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 <title>PTV Online</title> 
 <link rel="stylesheet" href="style.css">
